@@ -339,7 +339,7 @@ padding: 94px 0;
 | Hero section
 |============================
 */
-.general-info {
+/*.general-info {
   margin: 0 auto;
   width: 696px;
   margin-bottom: 30px;
@@ -351,7 +351,7 @@ padding: 94px 0;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--white-txt-cl);
-}
+}*/
 
 .info-list {
   display: flex;
@@ -403,7 +403,7 @@ padding: 94px 0;
   display: block;
   width: calc((100% -60px) / 3);
 }
-*/ .project-text {
+/* .project-text {
   position: absolute;
   left: 0;
   bottom: 0;
@@ -419,7 +419,7 @@ padding: 94px 0;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-}
+}*/
 
 /**
 |============================
@@ -457,9 +457,9 @@ padding: 94px 0;
   padding-right: 5px;
 }
 
-.team-info {
+/*.team-info {
   margin-bottom: 10px;
-}
+}*/
 
 .work {
   margin-top: 94px;
@@ -502,7 +502,7 @@ h2.info-about {
   padding-top: 94px;
 }
 
-.about-team-info,
+/*.about-team-info,
 .about-info {
   font-weight: 700;
   font-size: 36px;
@@ -510,8 +510,9 @@ h2.info-about {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--main-txy-cl);
-}
-.team-info {
+}*/
+
+/*.team-info {
   margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
@@ -519,9 +520,9 @@ h2.info-about {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--main-txy-cl);
-}
+}*/
 
-.team-info-position {
+/*.team-info-position {
   font-weight: 400;
   font-size: 16px;
   line-height: calc(19 / 16);
@@ -529,7 +530,7 @@ h2.info-about {
   letter-spacing: 0.03em;
   color: var(--sec-txt-cl);
   margin-bottom: 16px;
-}
+}*/
 
 /*.btn {
   max-width: 300px;
@@ -553,14 +554,15 @@ border-radius: 4px;
   margin-bottom: 50px;
 }
 
-.about-team-info {
+/*.about-team-info {
   margin-bottom: 50px;
 }
 
 .about-info,
 .about-team-info {
   text-align: center;
-}
+}*/
+
 .about-cards {
   text-decoration: none;
   border-top: none;
@@ -580,22 +582,23 @@ border-radius: 4px;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
-.work-card-title {
+
+/*.work-card-title {
   font-weight: 700;
   font-size: 18px;
   line-height: calc(36 / 18);
   letter-spacing: 0.06em;
   color: var(--main-txy-cl);
   text-decoration: none;
-}
-.work-cart-descr {
+}*/
+/*.work-cart-descr {
   font-weight: 400;
   font-size: 16px;
   line-height: calc(30 / 16);
   letter-spacing: 0.03em;
   color: var(--sec-txt-cl);
   text-decoration: none;
-}
+}*/
 /**
 |============================
 | Синій оверлей на картках-початок
@@ -622,13 +625,13 @@ border-radius: 4px;
   transform: translateY(-100%);
 }
 
-.overlay-desc {
+/*.overlay-desc {
   font-weight: 400;
   font-size: 18px;
   line-height: 1.55;
   letter-spacing: 0.03em;
   color: #eeeeee;
-}
+}*/
 
 /**
 |============================
@@ -687,7 +690,7 @@ text-decoration: none;
   fill: currentColor;
 }
 
-.clients-title {
+/*.clients-title {
   font-weight: 700;
   font-size: 36px;
   line-height: calc(42 / 36);
@@ -697,7 +700,7 @@ text-decoration: none;
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
-}
+}*/
 
 /**
 |============================
@@ -808,7 +811,7 @@ text-decoration: none;
   transition: var(--time-duration) var(--timing-function);
 }
 
-.social-title {
+/*.social-title {
   margin-bottom: 20px;
   font-weight: 700;
   font-size: 14px;
@@ -816,7 +819,7 @@ text-decoration: none;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--white-txt-cl);
-}
+}*/
 /**
   |============================
   | Соціальні іконки
@@ -1007,7 +1010,7 @@ text-decoration: none;
   text-align: center;
 }
 
-.form-title {
+/*.form-title {
   display: block;
   margin-bottom: 12px;
   font-weight: 700;
@@ -1016,7 +1019,7 @@ text-decoration: none;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--main-txy-cl);
-}
+}*/
 
 .form-group {
   margin-bottom: 20px;
