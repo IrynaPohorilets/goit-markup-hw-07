@@ -180,7 +180,7 @@ padding: 94px 0;
   margin-right: 50px;
 }
 /* logo */
-.logo {
+/*.logo {
   margin-right: 93px;
 
   color: var(--main-txy-cl);
@@ -203,6 +203,7 @@ padding: 94px 0;
   line-height: calc(31 / 26);
   text-decoration: none;
 }
+*/
 
 .hover-link:hover .hover-link:focus .hover-link:active {
   color: var(--accet-txt-cl);
@@ -725,7 +726,7 @@ text-decoration: none;
   background-color: var(--darc-bg-cl);
 }
 /* logo footer*/
-.foorer-logo {
+/*.foorer-logo {
   display: inline-block;
   margin-bottom: 20px;
 }
@@ -745,7 +746,7 @@ text-decoration: none;
 .studio {
   color: white;
   text-decoration: none;
-}
+}*/
 .footer-mail,
 .footer-phone {
   color: rgba(255, 255, 255, 0.6);
