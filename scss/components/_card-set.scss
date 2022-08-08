@@ -1,0 +1,23 @@
+.about-list {
+    display: flex;
+}
+
+.about-list__item:not(:last-child) {
+    margin-right: 30px;
+}
+
+/**
+|============================
+| 2 page
+|============================
+*/
+.work-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
+    text-decoration: none;
+}
+.work-card {
+    flex-basis: calc((100% - 30px * 2) / 3);
+}

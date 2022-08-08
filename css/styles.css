@@ -1,32 +1,28 @@
-:root {
-  /* fonts */
+/*:root {
+  
   --main-font: 'Roboto', sans-serif;
   --secondary-font: 'Raleway', sans-serif;
 
-  /* text colors */
   --main-txy-cl: #212121;
   --sec-txt-cl: #757575;
   --accet-txt-cl: #2196f3;
   --white-txt-cl: #ffffff;
 
-  /* bg color */
   --darc-bg-cl: #2f303a;
   --light-bg-cl: #f5f4fa;
 
-   /* animaeion effect */
   --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   --time-duration: 250ms;
-
-  /* others */
 }
+*/
 /* body section */
-body {
+/*body {
   font-family: var(--main-font);
   color: var(--main-txy-cl);
   background-color: var(--white-txt-cl);
-}
+}*/
 /* reset styles */
-h1,
+/*h1,
 h2,
 h3,
 h4,
@@ -51,9 +47,9 @@ img {
   list-style: none;
   padding: 0;
   margin: 0;
-}
+}*/
 
-.visuaaly-hidden {
+/*.visuaaly-hidden {
   position: absolute;
   white-space: nowrap;
   width: 1px;
@@ -64,7 +60,7 @@ img {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   margin: -1px;
-}
+}*/
 
 .section {
 padding: 94px 0;
@@ -149,8 +145,7 @@ background-color: var(--accet-txt-cl);
   margin-right: auto;
 }
 .header-icon:hover,
-.header-icon:focus,
- {
+.header-icon:focus {
   color: var(--acent-txt-cl);
   transition: color var(--time-duration) var(--timing-function);
 }
@@ -271,7 +266,6 @@ background-color: var(--accet-txt-cl);
  
 }
 
-}
 .portfolio-item {
   background: var(--light-bg-cl);
 border-radius: 4px;
@@ -404,7 +398,7 @@ border: 1px solid rgba(33, 150, 243, 1);
   position: relative;
   display: block;
   width: calc((100% -60px) / 3);
-}
+}*/
 
 .project-text {
   position: absolute;
@@ -422,7 +416,6 @@ border: 1px solid rgba(33, 150, 243, 1);
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-
 }
 
 /**
@@ -434,13 +427,13 @@ border: 1px solid rgba(33, 150, 243, 1);
   margin-left: 30px;
 
 }
-.about-list {
+/*.about-list {
   display: flex;
   }
 
 .about-list__item:not(:last-child) {
   margin-right: 30px;
-}
+}*/
 
 .about-team{
   display: flex;
@@ -471,9 +464,9 @@ border: 1px solid rgba(33, 150, 243, 1);
   margin-bottom: 94px;
 }
 
-.work-card{
+/*.work-card{
 flex-basis: calc((100% - 30px * 2) / 3);
-}
+}*/
 
 h2.info-about {
   font-weight: 700;
@@ -644,13 +637,14 @@ color: #EEEEEE;
   margin-bottom: 50px;
   justify-content: center;
 }
+/*
 .work-cards {
 display: flex;
 flex-wrap: wrap;
 gap: 30px;
 align-items: center;
 text-decoration: none;
-}
+}*/
 /**
 |============================
 | Постійні клієнти-початок
