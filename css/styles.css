@@ -263,13 +263,13 @@ padding: 94px 0;
   background-color: var(--accet-txt-cl);
 }*/
 
-.portfolio-item {
+/*.portfolio-item {
   background: var(--light-bg-cl);
   border-radius: 4px;
   transition: color var(--time-duration) var(--timing-function),
     background-color var(--time-duration) var(--timing-function),
     box-shadow var(--time-duration) var(--timing-function);
-}
+}*/
 
 /*.portfolio-button {
   border: none;
@@ -638,12 +638,12 @@ border-radius: 4px;
 | Синій оверлей на картках-кінець
 |============================
 */
-.portfolio-list {
+/*.portfolio-list {
   display: flex;
   gap: 8px;
   margin-bottom: 50px;
   justify-content: center;
-}
+}*/
 /*
 .work-cards {
 display: flex;
@@ -782,7 +782,7 @@ text-decoration: none;
   flex-direction: column;
   margin-right: 70px;
 }
-.social-links {
+/*.social-links {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -810,6 +810,7 @@ text-decoration: none;
   fill: var(--white-txt-cl);
   transition: var(--time-duration) var(--timing-function);
 }
+*/
 
 /*.social-title {
   margin-bottom: 20px;
@@ -825,7 +826,7 @@ text-decoration: none;
   | Соціальні іконки
   |============================
 */
-.socials {
+/*.socials {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -855,13 +856,13 @@ text-decoration: none;
 }
 .socials-link:hover .socials-icon {
   fill: var(--white-txt-cl);
-}
+}*/
 /**
   |============================
   | Форма підписки
   |============================
 */
-.footer-form {
+/*.footer-form {
   margin-left: 93px;
 }
 
@@ -891,7 +892,7 @@ text-decoration: none;
 
   letter-spacing: 0.03em;
   margin-right: 12px;
-}
+}*/
 
 /*.footer-btn {
   display: inline-flex;
@@ -1006,9 +1007,9 @@ text-decoration: none;
   | Форма заявки у модальному вікні
   |============================
 */
-.modal-form {
+/*.modal-form {
   text-align: center;
-}
+}*/
 
 /*.form-title {
   display: block;
@@ -1021,18 +1022,18 @@ text-decoration: none;
   color: var(--main-txy-cl);
 }*/
 
-.form-group {
+/*.form-group {
   margin-bottom: 20px;
-}
+}*/
 
-.form-wrap {
+/*.form-wrap {
   position: relative;
   display: block;
   margin-bottom: 10px;
 
   /* flex-direction: column;
   text-align: left;
-  gap: 10px; */
+  gap: 10px;
 }
 
 .form-wrap:last-child {
@@ -1123,7 +1124,7 @@ text-decoration: none;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
 
-  color: ;
+  color: var(--sec-txt-cl);
 }
 
 .form-agreement-link {
@@ -1156,4 +1157,4 @@ text-decoration: none;
 
 .modal-form-btn:hover {
   background: #188ce8;
-}
+}*/
